@@ -19,7 +19,7 @@ binding = "kv"
 id = "${KV_NAMESPACE_ID}"
 
 [[r2_buckets]]
-binding = "r2"
+binding = "R2"
 bucket_name = "${R2_BUCKET_NAME}"
 
 [ai]
