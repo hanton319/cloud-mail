@@ -19,7 +19,7 @@ binding = "kv"
 id = "${KV_NAMESPACE_ID}"
 
 [[r2_buckets]]
-binding = "R2"
+binding = "ATTACHMENT_BUCKET"
 bucket_name = "${R2_BUCKET_NAME}"
 
 [ai]
